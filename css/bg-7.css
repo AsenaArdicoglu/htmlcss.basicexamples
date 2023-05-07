@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* height: 100vh; */
+    background-image: url(https://lavinya.net/wp-content/uploads/2022/11/4c62ba-manzara-gol-lake-landscape-scaled.jpeg);
+    background-size: cover;
+    
+}
+
+.box{
+    width: 450px;
+    background:#ECC9EE;
+    padding: 45px;
+    /* margin: 100px 550px; */
+    text-align: center;
+    /* margin: auto; */
+    /* margin-top: 1%; */
+    color:#B08BBB;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.box img{
+    display: inline-block;
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.box img:hover{
+    transform: scale(0.9);
+}
+
+.box h1{
+    margin: 15px 15px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.box h3{
+    margin: 15px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* <!-- Social media  start--> */
+.box ul{
+    display: inline-flex;
+    list-style: none;
+
+}
+.box ul li{
+    font-size: 35px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.box ul li a{
+    
+        color: #5F264A;
+}
+
+.box ul li a:hover{
+    color: #F97B22;
+}
+
+button{
+    margin: 15px;
+    padding: 10px 25px;
+    border: solid 3px  white;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button a{
+    color:#5F264A;
+    text-decoration: none;
+}
+
+button:hover{
+    background: #B08BBB;
+}
+
+button a:hover{
+    color: #fff;
+}
+
+.profil ul li{
+    font-size: 25px;
+
+}
